@@ -1,14 +1,10 @@
-[![Review Assignment Due Date](https://classroom.github.com/assets/deadline-readme-button-24ddc0f5d75046c5622901739e7c5dd533143b0c8e959d652212380cedb1ea36.svg)](https://classroom.github.com/a/J0Dv0VMM)
-
-# Exam #1: "Gioco dei Meme"
-
-## Student: s323287 PALAZZI FEDERICO
+# Game of Memes
 
 ## React Client Application Routes
 
 - Route `/`: `App` component contains the homepage of the game and various buttons to move across the application.
 - Route `/play/guest`: `GuestPage` is accessible by any unauthenticated users in order to try the game for only one round.
-- Route `/play?category`: `GamePage` is similar to GuestPage, but supports the full game experience with three different rounds for the same game and a final recap of the match.
+- Route `/play`: `GamePage` is similar to GuestPage, but supports the full game experience with three different rounds for the same game and a final recap of the match.
 - Route `/auth`: `AuthPage` allows unauthenticated users to either create an account, or login to an existing one.
 - Route `/profile`: `ProfilePage` contains information about the currently logged in user and a scoreboard of his previous games.
 - Route `*` : `NotFound` is a component displayed when the URL does not match any of the previous routes.
@@ -101,7 +97,7 @@
 
 ### GameRoutes
 
-- GET `/api/games/new?category`
+- GET `/api/games/new
 
   - response body:
 
