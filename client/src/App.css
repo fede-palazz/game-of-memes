@@ -1,0 +1,19 @@
+.wrapper {
+  background-color: #387db9;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+}
+
+#playForm {
+  max-width: 600px;
+}
+
+.img-wrapper {
+  max-width: 250px !important;
+  max-height: 250px !important;
+}
+
+.img-wrapper:hover {
+  cursor: pointer;
+}
