@@ -1,5 +1,16 @@
 # Game of Memes
 
+Repository for the main project of the Web Applications I (2024) course at Politecnico di Torino.
+
+[![React](https://img.shields.io/badge/React-18.2.0-61DAFB?style=flat&logo=react&logoColor=white)](https://react.dev/)
+[![JavaScript](https://img.shields.io/badge/JavaScript-ES2024-F7DF1E?style=flat&logo=javascript&logoColor=white)](https://developer.mozilla.org/en-US/docs/Web/JavaScript)
+[![Bootstrap](https://img.shields.io/badge/Bootstrap-5.3.3-7952B3?style=flat&logo=bootstrap&logoColor=white)](https://getbootstrap.com/)
+[![Express](https://img.shields.io/badge/Express-4.19.2-000000?style=flat&logo=express&logoColor=white)](https://expressjs.com/)
+[![SQLite3](https://img.shields.io/badge/SQLite3-5.1.7-003B57?style=flat&logo=sqlite&logoColor=white)](https://www.sqlite.org/)
+
+<img src="img/img1.png" alt="screen_landing" style="zoom:50%;" />
+<img src="img/img2.png" alt="screen_game" style="zoom:50%;" />
+
 ## React Client Application Routes
 
 - Route `/`: `App` component contains the homepage of the game and various buttons to move across the application.
@@ -86,8 +97,7 @@
             "id": 2,
             "name": "avatar1.png",
             "value": 10
-        },
-        {...}
+        }
     ]
     ```
 
@@ -110,11 +120,9 @@
             	{
                 	"id": 1,
             		"text": "Caption 1"
-    			},
-        		{...}
+    			    }
             ]
-        },
-    	{...}
+        }
     ]
     ```
 
@@ -128,8 +136,7 @@
             {
                 "memeId": 1,
                 "score": 5
-            },
-            {...}
+            }
         ]
     }
     ```
@@ -218,12 +225,6 @@
 - `Game` (in `Game.jsx`): this component contains all the elements displayed during a game round and communicates with GuestPage and GamePage to exchange data, switch round and terminate the game.
 - `GameReview` (in `GameReview.jsx`): this component displays a final review of the game that just ended. It shows to the user which memes he correctly guessed and how many points he scored.
 - `Timer` (in `Timer.jsx`): this component keeps track of the time during the game and displays a countdown value. After 30 seconds, if the user hasn't submitted an answer, it terminates the round.
-
-## Screenshot
-
-![](img/img1.png)
-
-![](img/img2.png)
 
 ## Users Credentials
 
